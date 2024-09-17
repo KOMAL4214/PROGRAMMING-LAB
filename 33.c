@@ -8,7 +8,7 @@ int main()
           scanf("%d",&n);
            scanf("%d",&o);
            max=min=o;
-          for(i=1;i<=n;i++)
+          for(i=1;i<n;i++)
           {
           scanf("%d",&o);
           k=o;
