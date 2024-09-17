@@ -1,23 +1,14 @@
 #include<stdio.h>
 int main()
 {
-	int i,j;
+	int i,j,n;
 	printf("enter the values of n");
-	for(i=1;i<=4;i++)
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
 	{
 		for(j=1;j<=i;j++)
 		{
-			switch(j)
-			{
-				case 1:printf("\nA");
-				break;
-				case 2:printf("B");
-				break;
-				case 3:printf("C");
-				break;
-				case 4:printf("D");
-				break; 
-			}
+			printf("%c",(char)(j+64));
 		}
 		printf("\n");
 	 } 
