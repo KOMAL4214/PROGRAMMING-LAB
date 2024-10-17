@@ -4,8 +4,9 @@ int main()
 {
            int i,max,min,n,k,o;
           printf("program to print max and secmax");
-          printf("\nenter the numbers");
+          printf("\nenter the total values");
           scanf("%d",&n);
+          printf("\nenter the numbers"); 
            scanf("%d",&o);
            max=min=o;
           for(i=1;i<n;i++)
