@@ -2,11 +2,14 @@
 #include <math.h>
 int main()
 {
-           int i,max=0,secmax=0,n,k,o;
+           int i,max,secmax,n,k,o;
           printf("program to print max and secmax");
-          printf("\nenter the numbers");
+          printf("\nenter the total numbers");
           scanf("%d",&n);
-          for(i=1;i<=n;i++)
+           printf("\nenter the numbers");
+           scanf("%d",&o);
+           secmax=max=o;
+          for(i=1;i<n;i++)
           {
           scanf("%d",&o);
           k=o;
