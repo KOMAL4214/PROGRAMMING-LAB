@@ -7,21 +7,21 @@ int main()
     printf("enter the number of strings");
     scanf("%d",&s);
     char *p[s];
-    for(i=0;i<s;i++)
+    for(i=0;i<(s+1);i++)
     {
         p[i]=(char*)malloc(s*sizeof(char));
     }
-    for(i=0;i<s;i++)
+    for(i=0;i<(s+1);i++)
     {
         gets(p[i]);
     }
-    for(i=0;i<s;i++)
+    for(i=0;i<(s+1);i++)
     {
         puts(p[i]);
     }
-    for(i=0;i<s;i++)
+    for(i=0;i<(s+1);i++)
     {
-        for(j=i+1;j<s-1;j++)
+        for(j=i+1;j<=s;j++)
         {
            if(strcmp(p[i],p[j])>0) 
            {
@@ -32,7 +32,7 @@ int main()
         }
     }
     printf("ascending order");
-    for(i=0;i<s;i++)
+    for(i=0;i<(s+1);i++)
     {
         puts(p[i]);
     }
