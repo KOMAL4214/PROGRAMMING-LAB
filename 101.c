@@ -1,4 +1,4 @@
-[28/11, 12:47 pm] Teja(B409): #include <stdio.h>
+#include <stdio.h>
 struct information
 {
     int roll,t;
@@ -39,4 +39,3 @@ int main()
     
     return 0;
 }
-[28/11, 12:47 pm] Teja(B409): 101.c
